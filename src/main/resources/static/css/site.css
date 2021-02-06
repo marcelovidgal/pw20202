@@ -1,0 +1,16 @@
+h1 {
+	font-weight: bolder;
+}
+div {
+	color:blue;
+}
+.italico {
+	font-style: italic;
+}
+.vermelho {
+	color: red;
+	text-align: center;
+}
+.normal {
+	font-weight: lighter;
+}
