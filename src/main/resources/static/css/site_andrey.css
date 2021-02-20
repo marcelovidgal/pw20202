@@ -1,0 +1,19 @@
+h1 {
+	font-weight: bolder;
+}
+div {
+	color:blue;
+}
+article{
+	border: 1px solid black;
+}
+.italico {
+	font-style: italic;
+}
+.vermelho {
+	color: red;
+	text-align: center;
+}
+.normal {
+	font-weight: lighter;
+}

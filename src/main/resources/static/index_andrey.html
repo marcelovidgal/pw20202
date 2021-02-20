@@ -5,17 +5,17 @@
 <head>
     <meta charset="utf-8">
     <title>PW20202 - LAB CLIENTE ANDREY</title>
-    <!--
+    
     <style>
-        div{
-            color: rgb(168, 91, 91);
+        #para1{
+            color: green;
         }
-        .italico{
-            font-style: italic;
+        #para2{
+            color: rebeccapurple;
         }
     </style>
-    -->
-    <link rel="stylessheet" href="css/site.css" type="text/css"/>
+    
+    <link rel="stylesheet" href="css/site_andrey.css" type="text/css"/>
 </head>
 
 
@@ -35,6 +35,7 @@
         <h2 class="normal">Titulo 2</h2>
         <article>
             <div>
+                <p id="para1">Paragrafo 1</p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
@@ -42,14 +43,14 @@
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
                 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </div>
-            <video width="150" height="200" controls>
-                <source src="video/video.mp4" type="video/mp4">
+            <video width="500" height="300" controls>
+                <source src="videos/video.mp4" type="video/mp4">
                 O navegador não suporta a tag video
             </video>
             <p />
             <span>Tag Spam:</span>
             <audio controls>
-                <source src="auudio/audio.mp3" type="audio/mpeg">
+                <source src="audios/audio.mp3" type="audio/mpeg">
                 O navegador não suporta a tag audio
             </audio>
 
@@ -59,8 +60,9 @@
             </canvas>
         </article>
 
-        <h2>Titulo 3</h2>
+        <h2 class="normal">Titulo 3</h2>
         <article>
+            <p id="para2">Paragrafo 2</p>
             <br/>
             <form action="#" method="post">
                 Nome
@@ -77,6 +79,8 @@
                 <br/>
                 Status
                 <input type="checkbox" nome="Status">
+                <br/>
+                <input type="button" nome="submit" value="Salvar">
             </form>
         </article>
 
