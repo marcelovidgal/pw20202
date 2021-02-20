@@ -1,0 +1,20 @@
+h1 {
+	font-weight: bolder;
+}
+div {
+	color:blue;
+}
+.italico {
+	font-style: italic;
+}
+.vermelho {
+	color: red;
+	text-align: center;
+}
+.normal {
+	font-weight: lighter;
+}
+#yoshikage-css{
+	font-size: large;
+	color:blueviolet
+}
